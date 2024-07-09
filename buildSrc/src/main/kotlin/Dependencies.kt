@@ -49,6 +49,13 @@ object Dependencies {
         const val MATERIAL = "com.google.android.material:material:${Versions.MATERIAL_VERSION}"
     }
 
+    object Media3 {
+        const val EXO_PLAYER = "androidx.media3:media3-exoplayer:${Versions.MEDIA3}"
+        const val EXO_PLAYER_DASH = "androidx.media3:media3-exoplayer-dash:${Versions.MEDIA3}"
+        const val EXO_PLAYER_UI = "androidx.media3:media3-ui:${Versions.MEDIA3}"
+        const val SESSION = "androidx.media3:media3-session:${Versions.MEDIA3}"
+    }
+
     const val JSON = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2"
     const val DATASTORE = "androidx.datastore:datastore-preferences:1.0.0"
 

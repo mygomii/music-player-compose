@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.mygomii.presentation2"
+    namespace = "com.mygomii.presentation"
     compileSdk = AppConfig.COMPILE_SDK
 
     defaultConfig {
@@ -46,6 +46,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":data"))
+    implementation(project(":domain"))
 
     implementation(Dependencies.Google.MATERIAL)
 
@@ -80,4 +82,8 @@ dependencies {
     implementation(Dependencies.LOGGER)
 
     implementation(Dependencies.COIL)
+
+    implementation(Dependencies.Media3.EXO_PLAYER)
+    implementation(Dependencies.Media3.SESSION)
+    implementation(Dependencies.Media3.EXO_PLAYER_UI)
 }

@@ -53,4 +53,9 @@ dependencies {
 
     implementation(Dependencies.Hilt.ANDROID)
     kapt(Dependencies.Hilt.ANDROID_COMPILER)
+
+    implementation(Dependencies.Media3.EXO_PLAYER)
+    implementation(Dependencies.Media3.SESSION)
+    implementation(Dependencies.Media3.EXO_PLAYER_UI)
+//    implementation(Dependencies.Media3.EXO_PLAYER_DASH)
 }

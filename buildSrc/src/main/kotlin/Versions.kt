@@ -15,7 +15,7 @@ object Versions {
 
     const val COROUTINES_VERSION = "1.7.3"
     const val LOGGER_VERSION = "2.2.0"
-    const val KTOR_VERSION = "2.3.10"
+    const val KTOR_VERSION = "2.3.12"
     const val JSON_VERSION = "2.10.1"
     const val KOTLIN_PLUGIN_SERIALIZATION_VERSION = "1.9.0"
     const val MATERIAL_VERSION = "1.11.0"
@@ -24,5 +24,7 @@ object Versions {
     const val ANDROID_X_CONSTRAINT_LAYOUT_VERSION = "2.1.4"
     const val ANDROID_X_NAVIGATION_FRAGMENT_KTX_VERSION = "2.7.7"
     const val ANDROID_X_NAVIGATION_UI_KTX_VERSION = "2.7.7"
+
+    const val MEDIA3 = "1.3.0"
 
 }
