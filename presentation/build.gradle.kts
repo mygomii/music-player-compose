@@ -86,4 +86,6 @@ dependencies {
     implementation(Dependencies.Media3.EXO_PLAYER)
     implementation(Dependencies.Media3.SESSION)
     implementation(Dependencies.Media3.EXO_PLAYER_UI)
+
+    implementation(Dependencies.LOTTIE)
 }

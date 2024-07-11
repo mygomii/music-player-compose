@@ -1,4 +1,4 @@
-package com.mygomii.presentation.screen.screens.components
+package com.mygomii.presentation.screens.components
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
@@ -9,9 +9,8 @@ import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
-
 @Composable
-fun Title(title: String = "Lover", fontSize: TextUnit = 20.sp) {
+fun Title(title: String, fontSize: TextUnit = 20.sp) {
     Text(
         modifier = Modifier.padding(horizontal = 12.dp, vertical = 0.dp),
         text = title,
@@ -21,11 +20,11 @@ fun Title(title: String = "Lover", fontSize: TextUnit = 20.sp) {
 }
 
 @Composable
-fun Singer(singer: String = "Tayer Swift", fontSize: TextUnit = 18.sp) {
+fun Singer(singer: String, fontSize: TextUnit = 18.sp) {
     Text(
         modifier = Modifier.padding(horizontal = 12.dp, vertical = 2.dp),
         text = singer,
         fontSize = fontSize,
-        color = Color.Gray
+        color = Color.White
     )
 }

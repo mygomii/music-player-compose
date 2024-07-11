@@ -1,4 +1,4 @@
-package com.mygomii.music_player_compose.ui.theme
+package com.mygomii.presentation.screens.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme

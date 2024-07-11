@@ -1,4 +1,4 @@
-package com.mygomii.presentation.screen.screens.components
+package com.mygomii.presentation.screens.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.size
@@ -11,12 +11,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.mygomii.data.models.Music
+import com.mygomii.data.models.getImage
 
 @Composable
-fun Cover(imageUrl: String = "cover_sample", size: Dp = 300.dp) {
+fun Cover(imageUrl: String, size: Dp = 300.dp) {
     Image(
-        painter = painterResource(id = Music.getImage(LocalContext.current, imageUrl)),
+        painter = painterResource(id = imageUrl.getImage(LocalContext.current)),
         contentDescription = "",
         contentScale = ContentScale.Crop,
         modifier = Modifier

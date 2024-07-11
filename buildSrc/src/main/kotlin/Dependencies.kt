@@ -14,7 +14,7 @@ object Dependencies {
         const val UI_TOOLING = "androidx.compose.ui:ui-tooling"
         const val UI_TOOLING_PREVIEW = "androidx.compose.ui:ui-tooling-preview"
         const val UI_TEST_MANIFEST = "androidx.compose.ui:ui-test-manifest"
-        const val MATERIAL3 = "androidx.compose.material3:material3"
+        const val MATERIAL3 = "androidx.compose.material3:material3:1.1.1"
         const val HILT_NAVIGATION_COMPOSE = "androidx.hilt:hilt-navigation-compose:${Versions.ANDROID_X_HILT_COMPOSE_VERSION}"
     }
 
@@ -66,4 +66,7 @@ object Dependencies {
     const val TED = "io.github.ParkSangGwon:tedpermission-normal:3.3.0"
 
     const val COIL = "io.coil-kt:coil-compose:2.6.0"
+
+    const val LOTTIE = "com.airbnb.android:lottie:${Versions.LOTTIE_VERSION}"
 }
+

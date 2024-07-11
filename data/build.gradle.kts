@@ -58,4 +58,6 @@ dependencies {
     implementation(Dependencies.Media3.SESSION)
     implementation(Dependencies.Media3.EXO_PLAYER_UI)
 //    implementation(Dependencies.Media3.EXO_PLAYER_DASH)
+
+    implementation(Dependencies.LOGGER)
 }

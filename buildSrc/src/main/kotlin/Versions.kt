@@ -27,4 +27,6 @@ object Versions {
 
     const val MEDIA3 = "1.3.0"
 
+    const val LOTTIE_VERSION = "3.4.0"
+
 }

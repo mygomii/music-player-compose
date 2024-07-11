@@ -4,8 +4,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import com.mygomii.music_player_compose.ui.theme.MusicplayercomposeTheme
-import com.mygomii.presentation.screen.screens.Main
+import com.mygomii.presentation.screens.theme.MusicplayercomposeTheme
+import com.mygomii.presentation.screens.Main
 import dagger.hilt.android.AndroidEntryPoint
 
 
