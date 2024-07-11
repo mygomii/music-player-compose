@@ -6,12 +6,11 @@ import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 import com.mygomii.data.state.PlayerStates
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
 import javax.inject.Inject
 
 class PlayController @Inject constructor(private val exoPlayer: ExoPlayer) : Player.Listener {
     private val _playerState = MutableStateFlow(PlayerStates.STATE_IDLE)
-    val playerState: StateFlow<PlayerStates> = _playerState
+    val playerState: MutableStateFlow<PlayerStates> = _playerState
 
     val currentPlaybackPosition: Long
         get() = if (exoPlayer.currentPosition > 0) exoPlayer.currentPosition else 0L
